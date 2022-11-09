@@ -1,0 +1,8 @@
+CREATE DATABASE message_board;
+USE message_board;
+CREATE TABLE(
+    id INT PRIMARY KEY,
+    username VARCHAR(20) NOT NULL,
+    content VARCHAR(255) NOT NULL,
+    date DATE NOT NULL
+);
